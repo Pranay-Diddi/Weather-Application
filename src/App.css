@@ -1,0 +1,91 @@
+
+/* App.css */
+
+body {
+  background: linear-gradient(to right, #9fecf7, #ecedf2);
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.outerBox {
+  /* max-width: 400px; */
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 15px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  background: linear-gradient(to right, #408acf, #99c6e4); 
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin: 15px;
+  padding: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"]:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.text-danger {
+  color: #ff6b6b;
+  font-size: 1.1rem;
+}
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
