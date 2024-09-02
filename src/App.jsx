@@ -19,7 +19,6 @@ function App() {
         setError(null);
       } catch (error) {
         setError("Error fetching the weather data");
-        console.error("Error fetching the weather data:", error);
       }
     };
 
